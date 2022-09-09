@@ -1,0 +1,102 @@
+
+body{
+  background-color:#1F2937;
+  font-family:'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #4ADF86;
+}
+.content{
+  max-width: 1260px;
+  padding: 100px 60px;
+}
+.heading{
+  font-family: 'Karla', sans-serif;
+  color:#ffffff;
+  font-size: 45px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.h1-green{
+  color: #4ADF86;
+}
+
+.heading__text{
+  color: #D5D4D8;
+  margin-bottom: 35px;
+  font-size: 20px;
+}
+
+.checkbox{
+  margin-bottom: 25px ;
+}
+.line{
+  height: 1px;
+  background-color: #2F3E53;
+  border-radius: 1px;
+}
+
+.btn__start{
+width: 191px;
+height: 42px;
+background-color: #10B981;
+color: white;
+border-radius: 6px;
+font-size: 16px;
+margin-bottom: 30px;
+}
+
+.newpassword__container{
+  display: flex;
+  justify-content: start;
+}
+.password__container{
+margin: 40px 15px 5px; 
+}
+.password{
+width: 220px;
+height: 39px;
+background-color: #2F3E53;
+border-radius: 6px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 10px;
+}
+
+
+@media (max-width: 700px) {
+
+  .newpassword__container{
+    display: block;
+  }
+  
+  .password__container{
+    display: flex;
+    align-items: center;
+    margin: 40px 15px 5px; 
+  }
+  .password{
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 500px) {
+  .content{
+    padding: 100px 20px;
+  }
+  .newpassword__container{
+    display: block;
+  }
+  
+  .password__container{
+    display: flex;
+    align-items: center;
+    margin: 40px 15px 5px; 
+  }
+  .password{
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
+}
